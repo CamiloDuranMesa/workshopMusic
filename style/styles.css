@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.fondo_header{
+    width: 100%;
+}
+
+h1{
+    
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    font-size: 250px;
+}
+.parrafo_1{
+    text-align: justify;
+    margin-top: 14%;
+    margin-right: 60%;
+    margin-left: 15%;
+}
+.parrafo_2{
+    position: absolute;
+    text-align: justify;
+    margin-top: -31%;
+    margin-right: 15%;
+    margin-left: 60%;
+}
+.parrafo_3{
+    position: absolute;
+    text-align: justify;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 60%;
+    color: white;
+}
+h2{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    padding-top: 16px;
+    padding-bottom: 20px;
+    line-height: 28px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    box-shadow: none;
+    border-color: rgb(248, 44, 112);
+    background-color: rgb(248, 44, 112);
+    border-radius: 50px;
+    color: aliceblue;
+    height: 40px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagen1{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -33%;
+    height: 730px;
+}
+
+.imagen2{
+    margin-top: 12%;
+    margin-right: 50%;
+    margin-left: 12%;
+    height: 730px;
+}
+
+
+
+.color{
+    background: -webkit-linear-gradient(rgb(255, 153, 0),rgb(255, 0, 179));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(238, 4, 160);  ;
+    
+}
+
+.fondo_3{
+    background-image: url(../assets/images/john-raptis.png);
+    height: 791px;
+}
+
+footer{
+    background: -webkit-linear-gradient(rgb(247, 50, 112),rgb(255, 0, 105));
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.footer_space{
+    width: 200px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.footer_title{
+    padding-bottom: 45px;
+}
+
+.footer_content{
+    padding-bottom: 15px;
+}
+
+hr{
+    margin-left: 29%;
+    margin-right: 26%
+}
+
+.copyright{
+    display: flex;
+    font-size: smaller;
+}
+
+.inferior_line{
+    margin-left: 29%;
+    font-size: smaller;
+}
+
+.inferior_line2{
+    margin-left: 18.50%;
+    font-size: smaller;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
